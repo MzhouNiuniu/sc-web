@@ -1,0 +1,570 @@
+{
+    "searchData": [
+        {
+            "title": "生产者类型",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "合作社",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "种植大户",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "家庭农场",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "品类",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "水果",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "蔬菜",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "肉类",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "蛋类",
+                    "active": false
+                },
+                {
+                    "code": 5,
+                    "value": "菌菇",
+                    "active": false
+                },
+                {
+                    "code": 6,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "技术员经验",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "一年以下",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "1年-3年",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "3年-8年",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "8年以上",
+                    "active": false
+                },
+                {
+                    "code": 5,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "基地交通",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "国道上",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "县道上",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "距离县道/城市5公里以内",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "基地仓储条件",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "有冷库",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "无冷库",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "证书",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "有机认证",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "绿色认证",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "无公害认证",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "基地设施",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "有灌溉系统",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "有设施大棚",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "有水肥一体化系统",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "有摄像头",
+                    "active": false
+                },
+                {
+                    "code": 5,
+                    "value": "有农业机械",
+                    "active": false
+                },
+                {
+                    "code": 6,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "土地使用权来源",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "租赁",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "流转",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "集体入股",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "补贴",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "有补贴",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "无补贴",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "项目",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "有项目",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "无项目",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "农资购买方式",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "线下购买",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "平台商城购买",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "基地主要销售方式",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "农批市场",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "订单生产",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "全国连锁商超直供",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "其他",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "贷款",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "有贷款",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "无贷款",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "组织架构",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "场长",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "技术员",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "仓管",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "队长",
+                    "active": false
+                },
+                {
+                    "code": 5,
+                    "value": "工人",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "基地种植特色",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "临近或在风景区内",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "村里唯一合作社",
+                    "active": false
+                },
+                {
+                    "code": 3,
+                    "value": "周围面积还可扩展",
+                    "active": false
+                },
+                {
+                    "code": 4,
+                    "value": "特色品种产区",
+                    "active": false
+                },
+                {
+                    "code": 5,
+                    "value": "土壤",
+                    "active": false,
+                    "list": [
+                        {
+                            "code": 1,
+                            "value": "偏酸"
+                        },
+                        {
+                            "code": 2,
+                            "value": "偏碱"
+                        },
+                        {
+                            "code": 3,
+                            "value": "疏松透气"
+                        },
+                        {
+                            "code": 4,
+                            "value": "黏土"
+                        },
+                        {
+                            "code": 5,
+                            "value": "肥力高"
+                        },
+                        {
+                            "code": 6,
+                            "value": "肥力贫瘠"
+                        }
+                    ]
+                },
+                {
+                    "code": 6,
+                    "value": "气候",
+                    "active": false,
+                    "list": [
+                        {
+                            "code": 1,
+                            "value": "日夜温差大"
+                        },
+                        {
+                            "code": 2,
+                            "value": "晴天多"
+                        },
+                        {
+                            "code": 3,
+                            "value": "雨天多"
+                        },
+                        {
+                            "code": 4,
+                            "value": "冬季多阴雨"
+                        },
+                        {
+                            "code": 5,
+                            "value": "无霜冻期"
+                        },
+                        {
+                            "code": 6,
+                            "value": "终年气温变动幅度不大"
+                        }
+                    ]
+                },
+                {
+                    "code": 7,
+                    "value": "水源",
+                    "active": false,
+                    "list": [
+                        {
+                            "code": 1,
+                            "value": "自来水"
+                        },
+                        {
+                            "code": 2,
+                            "value": "附近江河湖泊"
+                        },
+                        {
+                            "code": 3,
+                            "value": "雨水蓄水池"
+                        }
+                    ]
+                },
+                {
+                    "code": 8,
+                    "value": "有机肥",
+                    "active": false,
+                    "list": [
+                        {
+                            "code": 1,
+                            "value": "附近有养殖基地"
+                        },
+                        {
+                            "code": 2,
+                            "value": "附近有加工厂"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "订单情况",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "已有其他订单",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "无其他订单",
+                    "active": false
+                }
+            ]
+        },
+        {
+            "title": "是否能开发票",
+            "list": [
+                {
+                    "code": 0,
+                    "value": "全部",
+                    "active": true
+                },
+                {
+                    "code": 1,
+                    "value": "是",
+                    "active": false
+                },
+                {
+                    "code": 2,
+                    "value": "否",
+                    "active": false
+                }
+            ]
+        }
+    ]
+}

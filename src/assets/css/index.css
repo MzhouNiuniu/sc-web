@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+}
+
+
+/* element-ui style reset */
+.el-form-item__error {
+    white-space: nowrap;
+}
+
+/*目前tooltip只是在表格中使用较多（即show-overflow-tooltip属性）*/
+.el-tooltip__popper {
+    max-width: 480px;
+}

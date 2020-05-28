@@ -34,6 +34,8 @@ let routers = new Router({
                 { path: '/home/editHeadline', component: component.editHeadline},
                 { path: '/home/user', component: component.user},
                 { path: '/home/editUser', component: component.editUser},
+                { path: '/home/test', component: component.test},
+                { path: '/home/editTest', component: component.editTest},
             ]
         },
     ]

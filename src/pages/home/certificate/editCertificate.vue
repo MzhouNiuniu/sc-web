@@ -5,21 +5,21 @@
             <el-form ref="form" :rules="rules"  :model="seedling" label-width="140px" class="contents" :disabled="disabled">
                 <el-row>
                     <el-col :span="8">
-                        <el-form-item label="课程名称：" prop="name">
+                        <el-form-item label="证书名称：" prop="name">
                             <el-input v-model="seedling.name" placeholder="请输入内容"></el-input>
                         </el-form-item>
                     </el-col>
                 </el-row>
                  <el-row>
-                <el-form-item label="课程封面：" prop="cover">
+                <el-form-item label="证书封面：" prop="cover">
                     <Multiple-upload-imgs :fileLimit="1" v-model="seedling.cover"/>
                 </el-form-item>
-                 <el-form-item label="课程图：" prop="banner">
+                 <el-form-item label="证书图：" prop="banner">
                          <Multiple-upload-imgs :fileLimit="1" v-model="seedling.banner"/>
                  </el-form-item>
                 </el-row>
                 <el-row>
-                    <el-form-item label="课程优势：" prop="advantage">
+                    <el-form-item label="证书优势：" prop="advantage">
                     <el-collapse  v-if="seedling.advantage.length>0" >
                         <el-collapse-item v-for="(item,index) in seedling.advantage" :title="item.title" :name="index">
                             <div>{{item.content}}</div>
@@ -54,12 +54,12 @@
                     </el-form-item>
                 </el-row>
                 <el-row>
-                    <el-form-item label="课程简介：" prop="brief">
+                    <el-form-item label="证书简介：" prop="brief">
                         <el-input type="textarea" v-model="seedling.brief" placeholder="请输入内容"></el-input>
                     </el-form-item>
                 </el-row>
                 <el-row>
-                    <el-form-item label="课程大纲：" prop="baseId">
+                    <el-form-item label="证书大纲：" prop="baseId">
 
                         <Editor   :showContent='seedling.outline'
                                   :disabled="disabled"
@@ -74,7 +74,7 @@
         <div class="updata-button">
             <el-button v-if="!disabled" type="primary" @click="submit()">保存</el-button>
         </div>
-        <el-dialog title="课程优势" :visible.sync="dialogFormVisible">
+        <el-dialog title="证书优势" :visible.sync="dialogFormVisible">
             <el-form :model="form" >
                 <el-form-item label="优势标题"   >
                     <el-input v-model="form.title"></el-input>
@@ -107,7 +107,7 @@
                 disabled:false,
                 rules:{
                     name: [
-                        { required: true, message: '请输入课程名称', trigger: 'blur' },
+                        { required: true, message: '请输入证书名称', trigger: 'blur' },
                     ],
                     brief: [
                         { required: true, message: '请输入简介', trigger: 'blur' },
@@ -148,6 +148,7 @@
         methods: {
            async submit () {
          this.seedling.outline= this.$refs.editor.editorContent
+
                this.$refs['form'].validate( async(valid) => {
                    if (valid) {
                        let res

@@ -38,6 +38,15 @@ export default {
         changeStatus:`${baseURL.SC}/knowledge/changeStatus`,
         changeStick:`${baseURL.SC}/knowledge/changeStick`,
     },
+    test:{
+        publish:`${baseURL.SC}/test/publish`,
+        getList:`${baseURL.SC}/test/getList`,
+        deleteById:`${baseURL.SC}/test/deleteById`,
+        getDetailsById:`${baseURL.SC}/test/getDetailsById`,
+        changeInFo:`${baseURL.SC}/test/changeInFo`,
+        changeStatus:`${baseURL.SC}/test/changeStatus`,
+        changeStick:`${baseURL.SC}/test/changeStick`,
+    },
     headline:{
         publish:`${baseURL.SC}/headline/publish`,
         getList:`${baseURL.SC}/headline/getList`,
@@ -58,9 +67,9 @@ export default {
         login:`${baseURL.SC}/administrator/checkInfo`,
     },
     fileServer: {
-        uploadwang: `${baseURL.fileServer}/oss/uploadwang`,//富文本图片上传
-        uploadFile: `${baseURL.fileServer}/oss/upload`,//图片上传
-        downloadFile: `${baseURL.fileServer}/downloadFile`,//富文本图片上传
+        uploadwang: `${baseURL.SC}/oss/uploadwang`,//富文本图片上传
+        uploadFile: `${baseURL.SC}/oss/upload`,//图片上传
+        downloadFile: `${baseURL.SC}/downloadFile`,//富文本图片上传
     },
 }
 //  简单封装  基本思想 请求配置 和 路径分开 方便后期 上线改动，  home 为单页名字，内为本页方法

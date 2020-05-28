@@ -147,9 +147,9 @@
         },
         methods: {
            async submit () {
-         this.seedling.outline= this.$refs.editor.editorContent
                this.$refs['form'].validate( async(valid) => {
                    if (valid) {
+                       this.seedling.outline= this.$refs.editor.editorContent
                        let res
                        if(this.$route.query.id){
                             res = await this.http.post(this.api.course.changeInFo,this.seedling)
@@ -230,6 +230,7 @@
             async getDetailsById(id){
                 const res = await this.http.get(this.api.course.getDetailsById,{id})
                 this.seedling=res.data
+                this.$refs.editor.editorContent=res.data.outline
                 this.$forceUpdate()
                 console.log(this.seedling)
 

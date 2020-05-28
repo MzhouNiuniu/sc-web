@@ -7,6 +7,7 @@
             <el-menu-item  index="/home/questionBank">题库</el-menu-item>
             <el-menu-item  index="/home/knowledge">微小知识</el-menu-item>
             <el-menu-item  index="/home/headline">书辰头条</el-menu-item>
+            <el-menu-item  index="/home/test">考试信息发布列表</el-menu-item>
             <el-menu-item  index="/home/user">用户列表</el-menu-item>
 
 

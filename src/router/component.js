@@ -20,6 +20,8 @@ const component = {
     editHeadline:() => import('pages/home/headline/editHeadline'),
     user:() => import('pages/home/user/index'),
     editUser:() => import('pages/home/user/editUser'),
+    test:() => import('pages/home/test/index'),
+    editTest:() => import('pages/home/test/editTest'),
 }
 
 export default component

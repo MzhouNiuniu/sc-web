@@ -1,7 +1,7 @@
 <template>
     <section>
         <p class="wrapper-title">
-            <span>课程列表</span>
+            <span>证书列表</span>
         </p>
         <div class="content-wrapper">
             <div class="operate-bar">
@@ -85,15 +85,15 @@
             this.columns = [
                 {
                     prop: 'name',
-                    label: '课程名称',
+                    label: '证书名称',
                 },
                 {
                     prop: 'brief',
-                    label: '课程简介',
+                    label: '证书简介',
                 },
                 {
                     prop: 'releaseTime',
-                    label: '发布时间',
+                    label: '证书时间',
                 }
             ]
 

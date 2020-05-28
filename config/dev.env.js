@@ -2,7 +2,7 @@
 const merge = require('webpack-merge')
 const prodEnv = require('./prod.env')
 
-const domain = '//localhost:8090'
+const domain = 'https://112.124.4.177'
 
 module.exports = merge(prodEnv, {
     NODE_ENV: '"development"',

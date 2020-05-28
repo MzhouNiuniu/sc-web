@@ -2,7 +2,7 @@
     <section class="login-body">
         <div class="login-left-body">
             <div class="left-content">
-                <span class="logo">LOGO</span>
+                <img class="logo" src="./img/logo.png"></img>
                 <span class="splite-line"></span>
                 <span class="title-name">南京向智科技有限公司</span>
             </div>
@@ -52,9 +52,10 @@
                     <div class="login-button white_button" @click="resetForm('ruleForm')">重置</div>
                 </div>
             </div>
-            <!-- <div class="rigth_foot">
-                       <div class="footer">杭州金恪云数据技术有限公司 版权所有©(2018-2019） <br>版本号：{{version}}</div>
-            </div>-->
+
+        </div>
+        <div class="rigth_foot">
+            <div class="footer">南京向智科技有限公司 版权所有©(2018-2019） <br>苏ICP备 20006602</div>
         </div>
     </section>
 </template>
@@ -255,8 +256,7 @@
 
     .footer {
         text-align: center;
-        line-height: 60px;
-        padding-top: 190px;
+        color: #fff;
     }
 
     .loginInput {
@@ -340,7 +340,7 @@
     }
 
     .logo {
-        width: 12.5rem;
+        width: 4.5rem;
         // width: 16.2%;
         height: 3.2rem;
         display: inline-block;
@@ -460,6 +460,8 @@
 
     .rigth_foot {
         position: absolute;
+        width: 100%;
+        text-align: center;
         bottom: 0;
     }
 </style>
